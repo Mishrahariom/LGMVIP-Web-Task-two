@@ -1,32 +1,29 @@
-.Todo-list-container{
+.Todo-list-container {
   margin: 2rem;
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: flex-start;
   width: 15cm;
   border: 1px solid black;
-  background-color: skyblue;  
+  background-color: skyblue;
   border-radius: 1rem;
-  
-  
- 
-min-height: 68rem;
- 
- 
-  
+  min-height: 68rem;
+
+
+
 }
 
-.todo-from{
-  
+.todo-from {
+
   display: flex;
   width: 100%;
   margin-top: 2rem;
   gap: 1rem;
   font-size: 1.5rem;
-  
+
 }
 
-.todo-from input{
+.todo-from input {
   border: 1px solid black;
   font-size: 2rem;
   padding: 1rem;
@@ -35,7 +32,7 @@ min-height: 68rem;
 
 }
 
-.todo-from button{
+.todo-from button {
   border: 1px solid black;
   border-radius: 1rem;
   background-color: white;
@@ -46,29 +43,29 @@ min-height: 68rem;
 
 }
 
-.todo-from button:hover{
+.todo-from button:hover {
   background-color: black;
   color: white;
 }
 
-.task-div{
-  background-color:aliceblue;
+.task-div {
+  background-color: aliceblue;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 2rem;
-  box-shadow:  0.5rem 0.5rem 1rem hsla(0, 0%, 0%, 0.355) ;
+  box-shadow: 0.5rem 0.5rem 1rem hsla(0, 0%, 0%, 0.355);
   border-radius: 1rem;
 
 }
 
-.todo-text{
+.todo-text {
   font-size: 2.5rem;
 
 }
 
-.icons{
+.icons {
   font-size: 2.5rem;
   display: flex;
   gap: 3rem;
@@ -78,16 +75,12 @@ min-height: 68rem;
 
 }
 
-.complete{
+.complete {
   text-decoration: line-through;
   opacity: 0.5;
   background-color: greenyellow;
 }
 
-.hide{
+.hide {
   display: none;
 }
-
-
-
-
