@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background: linear-gradient(rgb(0, 166, 255) , rgb(87, 213, 196) , rgb(45, 232, 135));
+  
+  
+}
+
+html{
+  font-size: 62.5%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
